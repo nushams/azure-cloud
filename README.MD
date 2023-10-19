@@ -4,4 +4,4 @@
 
 Extensive Azure learning guides for a hypothetical Azure Pet Store walk you through many Azure services and development scenarios using pre-built web applications and microservices.
 
-> You can view the live deployment here https://azurepetstore.com
+> You can view the live deployment here nspetstore.azurewebsites.net
