@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: nushamsazurecloud 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nushamsazurecloud
+  template:
+    metadata:
+      labels:
+        app: nushamsazurecloud 
+    spec:
+      containers:
+        - name: nushamsazurecloud 
+          image: nspetstorecr.azurecr.io/nushamsazurecloud
+          ports:
+          - containerPort: 80
